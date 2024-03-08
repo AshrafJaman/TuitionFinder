@@ -1,0 +1,13 @@
+.Verification {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.Verification h3 {
+  margin-bottom: 20px;
+}
+.Verification div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
