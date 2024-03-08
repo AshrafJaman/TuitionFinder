@@ -10,8 +10,8 @@ import { useHistory } from "react-router-dom";
 import AdminChart from "./AdminChart";
 const AdminDashboard = () => {
   const [teacher, setTeacher] = useContext(TeacherContext);
-  const [jobs, setJobs] = useContext(JobsContext);
-  const [view, setView] = useState(5);
+
+  
   const [viewJob, setViewJob] = useState(2);
   const [rev, setRev] = useState([]);
   let history = useHistory();
