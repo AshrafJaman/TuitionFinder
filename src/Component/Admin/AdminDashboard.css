@@ -48,13 +48,4 @@ button {
   border-radius: 10px;
 }
 
-.adminDashboard__card_jobs {
-  margin: 20px 0px;
-  border-bottom: 0.1px solid lightgray;
-  padding: 10px 10px;
-}
 
-.adminDashboard__card_jobs div {
-  display: flex;
-  justify-content: space-between;
-}
