@@ -1,20 +1,22 @@
-import React, { useContext } from 'react';
-import './Navigation.css';
-import { Link } from 'react-router-dom';
-import Button from '@material-ui/core/Button';
-import { UserContext } from '../Context/Sign_In_Context';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import { auth } from '../FirebaseConfig';
-import { ADMIN_MAIL } from '../../constants';
+import React, { useContext } from "react";
+import "./Navigation.css";
+import { Link } from "react-router-dom";
+import Button from "@material-ui/core/Button";
+import { UserContext } from "../Context/Sign_In_Context";
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import { auth } from "../FirebaseConfig";
+import { ADMIN_MAIL } from "../../constants";
 const Navigation = () => {
   const [user, setUser] = useContext(UserContext);
   const hamburger = (e) => {
-    if (e === 'out') {
+    if (e === "out") {
       handleSignOut();
     }
-    document.getElementsByClassName('for_mobile')[0].classList.toggle('hamburger__active');
-    document.getElementsByClassName('hamburger')[0].classList.toggle('toggle');
-    document.querySelector('body').classList.toggle('no__scroll');
+    document
+      .getElementsByClassName("for_mobile")[0]
+      .classList.toggle("hamburger__active");
+    document.getElementsByClassName("hamburger")[0].classList.toggle("toggle");
+    document.querySelector("body").classList.toggle("no__scroll");
   };
   const handleSignOut = () => {
     auth
@@ -23,14 +25,14 @@ const Navigation = () => {
         setUser(null);
       })
       .catch(function (error) {
-        alert('There is Something Wrong');
+        alert("There is Something Wrong");
       });
   };
   return (
     <nav className="navigation">
       <Link to="/">
         <h2>
-          <i>Tuition</i> <span style={{ color: '#1dbf73' }}>Finder</span>
+          <i>Tuition</i> <span style={{ color: "#1dbf73" }}>Finder</span>
         </h2>
       </Link>
       <div className="for_desktop">
@@ -69,7 +71,7 @@ const Navigation = () => {
           </>
         )}
       </div>
-      <div className="hamburger" onClick={() => hamburger('burger')}>
+      <div className="hamburger" onClick={() => hamburger("burger")}>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
@@ -80,11 +82,11 @@ const Navigation = () => {
         <Link to="/blog">Blog</Link>
         <Link to="/subject/all">All Tutor</Link>
         {user ? (
-          <Link to="/" onClick={() => hamburger('out')}>
+          <Link to="/" onClick={() => hamburger("out")}>
             Log Out
           </Link>
         ) : (
-          <Link to="/login" onClick={() => hamburger('in')}>
+          <Link to="/login" onClick={() => hamburger("in")}>
             Log In
           </Link>
         )}

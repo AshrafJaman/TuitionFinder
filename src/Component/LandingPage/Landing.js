@@ -19,9 +19,7 @@ const Landing = () => {
       <div>
         <div className="landingLeft">
           <h2>
-            Find the perfect <i>tutor</i>{" "}
-          </h2>
-          <h2>For you or your child</h2>
+          Better Tutors, Better Grades</h2>
           <form onSubmit={handleClick}>
             <SearchIcon></SearchIcon>
             <input type="text" name="search" placeholder="Search For Teacher" />
@@ -47,9 +45,7 @@ const Landing = () => {
               </Button>
             </div>
           </div>
-        </div>
-        <div className="landingRight">
-          <img src="http://pngimg.com/uploads/man/man_PNG6533.png" alt="" />
+          <br/>
         </div>
       </div>
     </div>

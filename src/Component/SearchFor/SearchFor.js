@@ -3,23 +3,21 @@ import React from "react";
 import "./SearchFor.css";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import { Link } from "react-router-dom";
+import searchtutor from "../../image/searchtutor.jpg";
 const SearchFor = () => {
   return (
     <div className="searchFor">
       <div>
         <h2>Tutors</h2>
-        <p>Let's see who is waiting For you</p>
+        <p>Let's see who is waiting For you!</p>
       </div>
       <div>
         <div>
-          <img
-            src="https://assets.skooli.com/images/homepage-images/homepage-tutors.png?1605871329"
-            alt=""
-          />
+          <img src={searchtutor} alt="" />
         </div>
         <div>
-          <h2>Find your subject expert</h2>
-          <h3>Get instant help for your questions.</h3>
+          <h2>Find Expert Tutor</h2>
+          <h3>Get instant Solutions</h3>
           <div>
             <Link to="/subject/math">
               <Button>
@@ -48,7 +46,7 @@ const SearchFor = () => {
             </Link>
             <Link to="/more-subject">
               <Button variant="outlined" color="primary">
-                More Subjects.
+                View More Subjects.
               </Button>
             </Link>
           </div>

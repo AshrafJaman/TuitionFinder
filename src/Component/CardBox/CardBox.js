@@ -46,7 +46,7 @@ const CardBox = ({ name, img, other, star, inst, subject, id, verified }) => {
           <h3>{name}</h3>
           <p>{`${subject} @ ${inst}`}</p>
           <div className="iCanTutor">
-            <span style={{ color: "gray" }}>I can tutor :</span>
+            <span style={{ color: "gray" }}>I can teach :</span>
             {can.map((x) => (
               <Button>{x}</Button>
             ))}

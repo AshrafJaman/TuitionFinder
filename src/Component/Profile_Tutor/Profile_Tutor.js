@@ -112,7 +112,7 @@ const Profile_Tutor = () => {
             </div>
           )}
 
-          <span style={{ color: "white" }}>I can tutor :</span>
+          <span style={{ color: "white" }}>I can teach :</span>
           {tutorCan.length !== 0 &&
             tutorCan.map((x, index) => {
               if (x[1] === true) {

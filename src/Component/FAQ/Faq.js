@@ -1,5 +1,5 @@
-import React from 'react';
-import './Faq.css';
+import React from "react";
+import "./Faq.css";
 const Faq = () => {
   return (
     <div className="shu_Box">
@@ -12,8 +12,9 @@ const Faq = () => {
         <article className="card-body_s">
           <h2 className="card-title_s">Get Verified Badge</h2>
           <p className="card-text_s">
-            If you buy premium subscription, you'll get verified badge. And students will be able to
-            contact you directly. They will see your contact info on your profile.
+            If you buy premium subscription, you'll get verified badge. And
+            students will be able to contact you directly. They will see your
+            contact info on your profile.
             <br />
             That means more students for you.
           </p>

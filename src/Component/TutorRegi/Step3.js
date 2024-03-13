@@ -136,7 +136,7 @@ const Step3 = ({ count, personal, education }) => {
         <BorderLinearProgress variant="determinate" value={90} />
         <h3>Tuition Information</h3>
         <div>
-          <label htmlFor="">I can Tutor:</label>
+          <label htmlFor="">I can teach:</label>
           <div>
             <input type="checkbox" name="math" onChange={(e) => handleSubjectChange(e)} />
             <label htmlFor="math">Math</label>

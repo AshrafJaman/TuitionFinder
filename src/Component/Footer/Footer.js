@@ -14,18 +14,20 @@ const Footer = () => {
         </h3>
 
         <p className="footer-links">
-          <Link to="/">Home</Link>·<Link to="/blog">Blog</Link>·
-          <a href="/home/#contact">Contact Us</a>·
+          <Link to="/">Home</Link>
+          <br />
+          <Link to="/blog">Blog</Link>
+          <br />
+          <a href="/home/#contact">Contact Us</a>
+          <br />
           <Link to="/about">About Us</Link>
         </p>
-
-        <p className="footer-company-name">TutionFinder.com &copy; 2024</p>
       </div>
       <div className="footer-center">
         <div>
           <i className="fa fa-map-marker"></i>
           <p>
-            <span>Metropolitan University</span> Sylhet, Bangladesh
+            <span>Metropolitan University</span> Bateshwar, Sylhet, Bangladesh
           </p>
         </div>
 
@@ -44,12 +46,14 @@ const Footer = () => {
       <div className="footer-right">
         <p className="footer-company-about">
           <span>About Tution Finder</span>
-          A Platform to connect student and teachers. All over the country.
+          MATCHING STUDENTS WITH THE BEST TUTORS
           <br />
           -Website Developed by Ashraf & Navid-
         </p>
 
         <div className="footer-icons">
+        <p> Follow US On</p>
+        <br/>
           <a href="#">
             <FacebookIcon></FacebookIcon>
           </a>
