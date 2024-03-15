@@ -94,7 +94,7 @@ const TopTutor = () => {
                       <Typography variant="body2" component="p">
                         <StarRatings
                           rating={x.tuition.star}
-                          starRatedColor="#1dbf73"
+                          starRatedColor="#0866FF"
                           numberOfStars={5}
                           starDimension="25px"
                           starSpacing="5px"

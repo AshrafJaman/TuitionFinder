@@ -21,7 +21,7 @@
   font-weight: 700;
 }
 .cardBox > p:nth-child(2) > .MuiSvgIcon-root {
-  color: #1dbf73;
+  color: #0866FF;
   margin-right: 1px;
 }
 .iCanTutor {
@@ -42,7 +42,7 @@
   text-transform: inherit;
 }
 .cardFooter {
-  background-color: #1dbf73;
+  background-color: #0866FF;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -72,7 +72,7 @@
   background: none;
 }
 .findTutor > div > form > button {
-  background: #1dbf73;
+  background: #0866FF;
   margin: 5px;
   text-transform: inherit;
   color: white;

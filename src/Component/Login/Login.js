@@ -72,7 +72,7 @@ const Login = () => {
           </p>
           <p style={{ color: "red" }}>
             {errors.password?.type === "minLength" &&
-              "Password must be minLength of 6"}
+              "Password must be min Length of 6"}
           </p>
           {err && <p style={{ color: "red" }}>{err}</p>}
           <button type="submit">Sign In</button>

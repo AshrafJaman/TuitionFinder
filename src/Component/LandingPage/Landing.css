@@ -1,5 +1,5 @@
 .landing {
-  background-image: linear-gradient(to right, #2d418b, #7dde57);
+  background-image: linear-gradient(to right, #001158, #757273);
   padding: 0% 15%;
 }
 .landing > div {
@@ -37,7 +37,7 @@
   font-size: 16px;
 }
 .landingLeft > form > button {
-  background-color: #1dbf73;
+  background-color: #0866FF;
   font-weight: 700;
   text-transform: inherit;
   font-size: 18px;
@@ -120,7 +120,7 @@
     margin: 25px 0px;
   }
   .landingLeft > form > button {
-    background-color: #1dbf73;
+    background-color: #0866FF;
     font-weight: 700;
     text-transform: inherit;
     font-size: 14px;

@@ -76,7 +76,7 @@ const TuitionJob = () => {
           <Grid key={i} item sm={12} md={6} lg={4}>
             <Card className="card" data-aos="zoom-in">
               <div>
-                <small style={{ color: '#1dbf73' }}>#Tuition Id: {x._id}</small>
+                <small style={{ color: '#0866FF' }}>#Tuition Id: {x._id}</small>
               </div>
               <div>
                 <h3>{x.title}</h3>

@@ -65,7 +65,7 @@ const Feature = () => {
             onClick={() => {
               handleOpen("emailUs");
             }}
-            style={{ color: "#1dbf73" }}
+            style={{ color: "#0866FF" }}
           >
             Enter your question >>
           </button>

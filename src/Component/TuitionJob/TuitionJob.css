@@ -22,7 +22,7 @@
 }
 .tuition_job > div > div > .card > div > button {
   width: 100%;
-  background-color: #1dbf73;
+  background-color: #0861F2;
   color: white;
 }
 .filter {
@@ -48,7 +48,7 @@
   outline: none;
   border-radius: 5px;
   margin: 0px 5px;
-  background-color: #1dbf73;
+  background-color: #0866FF;
   cursor: pointer;
   color: white;
   outline-style: none;

@@ -32,26 +32,30 @@ const Navigation = () => {
     <nav className="navigation">
       <Link to="/">
         <h2>
-          <i>Tuition</i> <span style={{ color: "#1dbf73" }}>Finder</span>
+          <i>Tuition</i> <span style={{ color: "#FFCC00" }}>Finder</span>
         </h2>
       </Link>
+    
       <div className="for_desktop">
         <div>
           <Link to="/reqTutor">Request For a Tutor</Link>
           <Link to="/tuition-job">Tuition Jobs</Link>
           <Link to="/blog">Blog</Link>
-          <Link to="/subject/all">All Tutor</Link>
-          {user ? (
-            <Link to="/" onClick={handleSignOut}>
-              Log Out
-            </Link>
-          ) : (
-            <Link to="/login">Log In</Link>
-          )}
+          <Link to="/subject/all">Browse Tutor</Link>
         </div>
+        {user ? (
+          <Link to="/" onClick={handleSignOut}>
+            Log Out
+          </Link>
+        ) : (
+          <Link className="navigationRight" to="/login">
+            <Button>Log In</Button>
+            </Link>
+        )}
+
         {!user ? (
           <Link className="navigationRight" to="/registration-tutor">
-            <Button>Join As Teacher</Button>
+            <Button>Become A Teacher</Button>
           </Link>
         ) : (
           <>
@@ -82,18 +86,18 @@ const Navigation = () => {
         <Link to="/blog">Blog</Link>
         <Link to="/subject/all">All Tutor</Link>
         {user ? (
-          <Link to="/" onClick={() => hamburger("out")}>
+          <Link className="navigationRight" to="/" onClick={() => hamburger("out")}>
             Log Out
           </Link>
         ) : (
-          <Link to="/login" onClick={() => hamburger("in")}>
+          <Link className="navigationRight" to="/login" onClick={() => hamburger("in")}>
             Log In
           </Link>
         )}
 
         {!user ? (
           <Link className="navigationRight" to="/registration-tutor">
-            <Button>Join As Teacher</Button>
+            <Button>Become A Teacher</Button>
           </Link>
         ) : (
           <Link to={`/my-profile`}>

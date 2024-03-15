@@ -17,10 +17,10 @@
   margin-left: 20px;
 }
 .profileTop > div > button {
-  color: #1dbf73;
+  color: #0866FF;
 }
 .profileTop > div > div > button {
-  background-color: #1dbf73;
+  background-color: #0866FF;
   color: white;
   text-transform: inherit;
   font-weight: 700;
@@ -41,12 +41,12 @@
   max-height: fit-content;
 }
 .profileBottom > div > h3 {
-  color: #1dbf73;
+  color: #0866FF;
   letter-spacing: 1px;
 }
 .profileBottom > div > div > button {
   background: none;
-  border: 2px solid #1dbf73;
+  border: 2px solid #0866FF;
   color: white;
   font-weight: 700;
   text-transform: inherit;
@@ -72,7 +72,7 @@
   font-style: italic;
 }
 .profileBottom > div:nth-child(2) > ul > li > .MuiSvgIcon-root {
-  color: #1dbf73;
+  color: #0866FF;
 }
 .profileBottom > div:nth-child(2) > ul > li > div:nth-child(2) {
   flex: 1;
@@ -83,7 +83,7 @@
   max-width: 40%;
 }
 .feed > h3 {
-  color: #1dbf73;
+  color: #0866FF;
 }
 .feed > div:nth-child(4) > button {
   color: white !important;
@@ -117,7 +117,7 @@
   width: fit-content;
 }
 .verified_user > h4 > .MuiSvgIcon-root {
-  color: #1dbf73;
+  color: #0866FF;
 }
 .payPal_box {
   padding: 30px 0px;

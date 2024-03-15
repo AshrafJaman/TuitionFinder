@@ -6,7 +6,7 @@
 .contact h2 {
   text-align: center;
   font-size: 30px;
-  color: #1dbf73;
+  color: #0866FF;
   letter-spacing: 5px;
 }
 
@@ -39,7 +39,7 @@
   border: 1px solid lightgray;
 }
 .form_submit input {
-  background-color: #1dbf73;
+  background-color: #0866FF;
   font-weight: 700;
   text-transform: inherit;
   font-size: 18px;

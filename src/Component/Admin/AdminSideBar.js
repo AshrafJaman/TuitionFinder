@@ -25,7 +25,7 @@ const AdminSideBar = ({ step, setStep }) => {
       <div className="adminSideBar__link">
         <Link to="/">
           <h2>
-            <i>Tuition</i> <span style={{ color: "#1dbf73" }}>Finder</span>
+            <i>Tuition</i> <span style={{ color: "#0866FF" }}>Finder</span>
           </h2>
         </Link>
       </div>

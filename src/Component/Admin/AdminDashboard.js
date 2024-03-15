@@ -74,7 +74,7 @@ const AdminDashboard = () => {
               .map((x, index) => (
                 <div className="adminDashboard__card_jobs">
                   <div>
-                    <small style={{ color: "#1dbf73" }}>
+                    <small style={{ color: "#0866FF" }}>
                       #Tuition Id: {x._id}
                     </small>
                   </div>
